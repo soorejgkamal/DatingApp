@@ -54,6 +54,10 @@ namespace DatingApp.API
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler();
+            }
 
             // app.UseHttpsRedirection();
 

@@ -73,7 +73,7 @@ namespace DatingApp.API.Controllers
                 new {
                     token=tokenHandler.WriteToken(token)
                 });
-
+       
         }
     }
 }
